@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("/images/farm.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: 'Pacifico', cursive;
+  opacity: 0.9;
+  color: wheat;
+  font-size: 25px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: black;
+
+}
+
+ul li {
+  margin: auto;
+  text-align: left;
+  min-width: 300px;
+  width: 300px;
+  height: 300px;  
+  /* border: solid 5px black; */
+}
+
+button {
+  margin: 5px 0px 0px 0px; 
+  border: none;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+/* .likebutton {
+  background-color:;
+} */
+
+button:hover {
+  cursor: pointer;
+} 
+
+button:focus {
+  outline: none;
+}
+
+.likes {
+  margin: 5px 0px 0px 0px;
+  border: none;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-weight: 900;
+  text-shadow: 1px 1px wheat;
+}
+
+.description {
+  background-color: black;
+  color: white;
+  min-width: 260px;
+  max-width: 260px;
+  min-height: 260px;  
+  max-height: 260px;
+  padding: 20px;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  font-family: 'Pacifico', cursive;
+  color: wheat;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.description:hover {
+  transform: scale(1);
+  cursor: pointer;
+  /* border: solid 5px black; */
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0px 0px 10px black;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+  cursor: pointer;
+  /* border: solid 5px black; */
+}
